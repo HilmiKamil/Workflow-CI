@@ -8,10 +8,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # ===============================
 # LOAD DATA HASIL PREPROCESSING
 # ===============================
-X_train = np.load("Membangun_model/heart_disease_preprocessing/X_train.npy")
-y_train = np.load("Membangun_model/heart_disease_preprocessing/y_train.npy")
-X_test = np.load("Membangun_model/heart_disease_preprocessing/X_test.npy")
-y_test = np.load("Membangun_model/heart_disease_preprocessing/y_test.npy")
+X_train = np.load("heart_disease_preprocessing/X_train.npy")
+y_train = np.load("heart_disease_preprocessing/y_train.npy")
+X_test = np.load("heart_disease_preprocessing/X_test.npy")
+y_test = np.load("heart_disease_preprocessing/y_test.npy")
 
 # ===============================
 # SETTING MLFLOW
